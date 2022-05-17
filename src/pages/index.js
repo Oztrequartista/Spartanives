@@ -6,8 +6,9 @@ import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from '../sections/banner';
 import KeyFeature from '../sections/key-feature';
-import ServiceSection from '../sections/service-section';
-import AltServiceSection from '../sections/alt-service-section';
+import PoloBeachClub from '../sections/polo-beach-club';
+import SunpowerInnovations from '../sections/sun-power-innovations';
+import AccraRaceCourse from '../sections/accra-race-course';
 import Feature from '../sections/feature';
 import CoreFeature from '../sections/core-feature';
 import WorkFlow from '../sections/workflow';
@@ -22,11 +23,11 @@ export default function IndexPage() {
           <SEO title="Spartanives Website" />
           <Banner />
           <KeyFeature />
-          <ServiceSection />
+          <PoloBeachClub />
           {/* <Feature /> */}
-          <AltServiceSection />
+          <SunpowerInnovations />
           {/* <CoreFeature /> */}
-          <ServiceSection />
+          <AccraRaceCourse />
           <WorkFlow />
           <Package />
           <TeamSection />
