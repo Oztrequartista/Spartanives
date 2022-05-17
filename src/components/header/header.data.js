@@ -4,8 +4,8 @@ export default [
     label: 'Home',
   },
   {
-    path: 'feature',
-    label: 'Features',
+    path: 'strategies',
+    label: 'Our Strategies',
   },
   {
     path: 'pricing',
