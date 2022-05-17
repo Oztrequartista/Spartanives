@@ -7,6 +7,7 @@ import Layout from 'components/layout';
 import Banner from '../sections/banner';
 import KeyFeature from '../sections/key-feature';
 import ServiceSection from '../sections/service-section';
+import AltServiceSection from '../sections/alt-service-section';
 import Feature from '../sections/feature';
 import CoreFeature from '../sections/core-feature';
 import WorkFlow from '../sections/workflow';
@@ -18,12 +19,14 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="NextJS Landing Page" />
+          <SEO title="Spartanives Website" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
-          <Feature />
-          <CoreFeature />
+          {/* <Feature /> */}
+          <AltServiceSection />
+          {/* <CoreFeature /> */}
+          <ServiceSection />
           <WorkFlow />
           <Package />
           <TeamSection />

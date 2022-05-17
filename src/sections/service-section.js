@@ -12,6 +12,7 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
+import SectionHeader from "components/section-header";
 import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
@@ -22,24 +23,38 @@ import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 
 const data = {
-  subTitle: "our services",
-  title: "Business Goals Achieved with Design",
+  subTitle: "Active Projects",
+  title: "Polo Beach Club",
   features: [
     {
       id: 1,
       imgSrc: Smart,
       altText: "Smart Features",
-      title: "Smart Features",
+     // title: "Smart Features",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        `The Polo Beach Club (PBC) created in 2019 was a concept 
+        designed to create a social club making full use of Labadi Beach 
+        but also was designed to create a Segway into the Labadi Beach 
+        hotel asset in order to test the potential for profit within the area.`
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
-      title: "Secure Contents",
+     // title: "Secure Contents",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        `The Club allowed both the Spartan and Labadi hotel team to to 
+        work together on basic silos of business including beverages, food 
+        and accommodation - the basic revenue lines of any hotel.`,
+    },
+    {
+      id: 2,
+      imgSrc: Secure,
+      altText: "Secure Contents",
+     // title: "Secure Contents",
+      text:
+        `The Project has been very successful leading to discussions on the 
+        full acqusition of the hotel and subsequently the entire beach.`,
     },
   ],
 };
@@ -53,6 +68,7 @@ export default function ServiceSection() {
   };
   return (
     <section sx={{ variant: "section.services" }}>
+      <SectionHeader slogan="Our Projects" title="Projects worked on" />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="thumbnail" />
@@ -141,6 +157,7 @@ const styles = {
     zIndex: -1,
     display: ["none", null, null, null, null, "inline-block"],
   },
+  
   videoBtn: {
     zIndex: 2,
     position: "absolute",

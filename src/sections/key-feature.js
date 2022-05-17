@@ -12,44 +12,46 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    altText: "Entertainment",
+    title: "Entertainment",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      `We focus on actively investing large scale entertainment, leisure, hospitality, 
+      medium to large scale real estate, renewable energy, and other strategic 
+      projects across Ghana`,
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Financial",
+    title: "Financial",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    `Spartan Ives aims to create financial value by directly investing equity into 
+    our portfolio companies or debt in partnership with investment partners 
+    around the world using patient capital as well restructuring operations of 
+    the invested assets to extract value`,
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    altText: "Hospitality",
+    title: "Hospitality",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    `Ghana’s hospitality space is under-served by traditional financial institutions 
+    and Spartan Ives’ strategy is to fill this gap. Our most compelling reason is 
+    the impact our investments have on the wellbeing of our planet and how 
+    economic development can work hand in hand with sustaining the 
+    environment`,
   },
-  {
-    id: 4,
-    imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
-    text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
+
 ];
 
 export default function KeyFeature() {
   return (
-    <section id="feature" sx={{ variant: "section.keyFeature" }}>
+    <section id="strategies" sx={{ variant: "section.keyFeature" }}>
       <Container>
         <SectionHeader
-          slogan="you request, we deliver"
-          title="Our Feature Section. Thoughts?"
+          slogan=""
+          title="Our Strategy"
         />
 
         <Grid sx={styles.grid}>
@@ -65,7 +67,7 @@ export default function KeyFeature() {
               />
             );
           })}
-        </Grid>
+        </Grid> 
       </Container>
     </section>
   );
@@ -89,7 +91,7 @@ const styles = {
       null,
       "repeat(2,1fr)",
       null,
-      "repeat(4,1fr)",
+      "repeat(3,1fr)",
     ],
   },
 };

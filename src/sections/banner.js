@@ -11,12 +11,14 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Are You Ready ?
+            Welcome !
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Explore this website to find great software packages. If you need a
-            website or a webApp, this is the place to be!
+            We focus on actively investing large scale entertainment, leisure,
+            hospitality, medium to large scale real estate, renewable energy,
+            and other strategic projects across Ghana.
           </Text>
+          {/* {"make explore button scroll to projects"} */}
           <Button variant="primary">Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
@@ -83,3 +85,4 @@ const styles = {
     },
   },
 };
+
