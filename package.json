@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "postbuild": "next-sitemap"
+    "postbuild": "next"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
