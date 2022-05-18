@@ -8,11 +8,15 @@ export default [
     label: 'Our Strategies',
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: 'projects',
+    label: 'Projects',
   },
+  // {
+  //   path: 'pricing',
+  //   label: 'Pricing',
+  // },
   {
-    path: 'testimonial',
-    label: 'Testimonial',
+    path: 'overview',
+    label: 'Overview',
   },
 ];

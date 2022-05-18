@@ -88,8 +88,8 @@ export default {
     keyFeature: {
       // pt: [8, null, 9, null, null, 10],
       // pb: ['90px', null, 9, null, null, 10, null, '165px'],
-      pt: [4, null, 5, null, null, 5],
-      pb: ['10px', null, 5, null, null, 7, null, '50px'],
+      pt: [6, null, 5, null, null, 7],
+      pb: ['10px', null, 5, null, null, 7, null, '60px'],
     },
     feature: {
       pb: [8, null, 9, null, null, 10, null, '170px'],
@@ -105,10 +105,11 @@ export default {
       // pt: [8, null, 8, '70px', null, 8, null, '145px'],
       // pb: ['90px', null, 9, null, null, 10, null, '190px'],
       pt: [5, null, 6, '50px', null, 8, null, '40px'],
-      pb: ['30px', null, 6, null, null, 7, null, '30px'],
+      pb: [null, null, 6, null, null, 7, null, '30px'],
       overflow: 'hidden',
     },
     services: {
+      pt: ['50px'],
       pb: ['90px', null, 9, null, null, 10, null, '150px'],
     },
     pricing: {

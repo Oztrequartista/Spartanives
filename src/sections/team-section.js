@@ -16,8 +16,8 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
+    altText: "Samuel Baddoo",
+    title: "Samuel Baddoo",
     designation: "CEO and Founder",
     socialProfile: [
       {
@@ -43,8 +43,8 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
+    altText: "Kwasi A. Agbley",
+    title: "Kwasi A. Agbley",
     designation: "Founder",
     socialProfile: [
       {
@@ -70,8 +70,8 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
+    altText: "Yaw Amoateng Afriye",
+    title: "Yaw Amoateng Afriye",
     designation: "Web Designer",
     socialProfile: [
       {
@@ -97,8 +97,8 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: "Lina Jutila",
-    title: "Lina Jutila",
+    altText: "Emmanuel Taye",
+    title: "Emmanuel Taye",
     designation: "Web Developer",
     socialProfile: [
       {
@@ -124,8 +124,8 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
+    altText: "Andromina Baffoe",
+    title: "Andromina Baffoe",
     designation: "CEO and Founder",
     socialProfile: [
       {
@@ -148,33 +148,33 @@ const data = [
       },
     ],
   },
-  {
-    id: 6,
-    imgSrc: Member6,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Web Designer",
-    socialProfile: [
-      {
-        id: 1,
-        name: "facebook",
-        path: "#",
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: "twitter",
-        path: "#",
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: "instagram",
-        path: "#",
-        icon: <FaInstagram />,
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   imgSrc: Member6,
+  //   altText: "Aaron Nunez",
+  //   title: "Aaron Nunez",
+  //   designation: "Web Designer",
+  //   socialProfile: [
+  //     {
+  //       id: 1,
+  //       name: "facebook",
+  //       path: "#",
+  //       icon: <FaFacebookF />,
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "twitter",
+  //       path: "#",
+  //       icon: <FaTwitter />,
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "instagram",
+  //       path: "#",
+  //       icon: <FaInstagram />,
+  //     },
+  //   ],
+  // },
 ];
 
 export default function TeamSection() {
@@ -182,11 +182,11 @@ export default function TeamSection() {
     <section style={{paddingTop:"50px"}}>
       <Container>
         <SectionHeader
-          slogan="our team"
-          title="Meet our qualified and talented team."
+          slogan="our management"
+          title="Meet our qualified and talented managers :"
         />
 
-        <Grid sx={styles.grid}>
+        <Grid sx={styles.flex}>
           {data.map((item, index) => {
             const {
               id,
@@ -225,4 +225,11 @@ const styles = {
       "repeat(3,1fr)",
     ],
   },
+  flex:{   
+    display:"flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
+    
+  }
 };

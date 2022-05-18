@@ -67,8 +67,8 @@ export default function ServiceSection() {
     setVideoOpen(true);
   };
   return (
-    <section sx={{ variant: "section.services" }}>
-      <SectionHeader slogan="Our Projects" title="Projects worked on" />
+    <section sx={{ variant: "section.services" }} id="projects">
+      <SectionHeader slogan="Our Projects" title="Our Active Projects :" />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="thumbnail" />
