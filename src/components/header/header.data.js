@@ -4,6 +4,10 @@ export default [
     label: 'Home',
   },
   {
+    path: 'overview',
+    label: 'Overview',
+  },
+  {
     path: 'strategies',
     label: 'Our Strategies',
   },
@@ -15,8 +19,5 @@ export default [
   //   path: 'pricing',
   //   label: 'Pricing',
   // },
-  {
-    path: 'overview',
-    label: 'Overview',
-  },
+
 ];

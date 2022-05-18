@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Image, Text } from "theme-ui";
-import { Link } from "components/link";
+// import { Link } from "components/link";
+import { Link } from "react-scroll";
 import data from "./footer.data";
 import FooterLogo from "assets/logo.svg";
 
@@ -9,8 +10,8 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
-          <Link path="/">
-            <Image src={FooterLogo} alt="footer-logo" />
+          <Link path="home" >
+            <Image src={FooterLogo} alt="footer-logo" sx={styles.footer.homeLink}/>
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -18,11 +19,17 @@ export default function Footer() {
                 const { path, label } = item;
                 return (
                   <Link
-                    path={path}
-                    key={index}
-                    label={label}
-                    sx={styles.footer.link}
-                  />
+                  // activeClass="active"
+                  to={path}
+                  spy={true}
+                  smooth={true}
+                  // offset={-70}
+                  duration={1500}
+                  key={index}
+                   sx={styles.footer.link}
+                >
+                  {label}
+                </Link>
                 );
               })}
             </nav>
@@ -77,5 +84,8 @@ const styles = {
       fontSize: [1, "15px"],
       width: "100%",
     },
+    homeLink:{
+      cursor:"pointer"
+    }
   },
 };
