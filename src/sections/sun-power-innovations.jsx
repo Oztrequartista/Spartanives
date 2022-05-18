@@ -14,6 +14,8 @@ import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
 import SectionHeader from "components/section-header";
 import ModalVideo from "react-modal-video";
+import SunPower from "assets/sunpower.png"
+
 import { IoIosPlay } from "react-icons/io";
 
 // import ServiceThumb from "assets/service-thumb.png";
@@ -105,7 +107,7 @@ export default function AltServiceSection() {
           </Box>
         </Box> */}
           <Box sx={styles.thumbnail}>
-          <Image src={FeatureThumb} alt="Thumbnail" />
+          <Image src={SunPower} alt="Thumbnail" />
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
           </Box>

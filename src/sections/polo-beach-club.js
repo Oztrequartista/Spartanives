@@ -16,8 +16,8 @@ import SectionHeader from "components/section-header";
 import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
-import ServiceThumb from "assets/service-thumb.png";
 import shapePattern from "assets/shape-pattern1.png";
+import PoloBeachClub from "assets/polo-beach-club.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
@@ -71,7 +71,7 @@ export default function ServiceSection() {
       <SectionHeader slogan="Our Projects" title="Projects worked on" />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
+          <Image src={PoloBeachClub} alt="thumbnail" />
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -107,7 +107,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="ab_KhduEqho"
+        videoId="piPaOE1rim4"
         onClose={() => setVideoOpen(false)}
       />
     </section>
