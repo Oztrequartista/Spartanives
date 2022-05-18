@@ -1,24 +1,40 @@
 export default {
   menuItem: [
+    // {
+    //   path: '/',
+    //   label: 'Home',
+    // },
+    // {
+    //   path: '/',
+    //   label: 'Adversite',
+    // },
+    // {
+    //   path: '/',
+    //   label: 'Supports',
+    // },
+    // {
+    //   path: '/',
+    //   label: 'Marketing',
+    // },
+    // {
+    //   path: '/',
+    //   label: 'Contact',
+    // },
     {
-      path: '/',
+      path: 'home',
       label: 'Home',
     },
     {
-      path: '/',
-      label: 'Adversite',
+      path: 'overview',
+      label: 'Overview',
     },
     {
-      path: '/',
-      label: 'Supports',
+      path: 'strategies',
+      label: 'Our Strategies',
     },
     {
-      path: '/',
-      label: 'Marketing',
-    },
-    {
-      path: '/',
-      label: 'Contact',
+      path: 'projects',
+      label: 'Projects',
     },
   ],
 };

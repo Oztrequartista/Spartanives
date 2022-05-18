@@ -68,6 +68,7 @@ const styles = {
     width: "100%",
     textAlign: "center",
     mt: [3, null, 4],
+    padding:"16px",
     name: {
       fontSize: [1, 2, 3, null, null, 4],
       fontWeight: "bold",

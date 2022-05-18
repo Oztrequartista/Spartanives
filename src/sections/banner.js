@@ -4,7 +4,7 @@ import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/banner-thumb.png";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
-
+import { Link } from "react-scroll";
 export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
@@ -18,8 +18,9 @@ export default function Banner() {
             hospitality, medium to large scale real estate, renewable energy,
             and other strategic projects across Ghana.
           </Text>
-          {/* {"make explore button scroll to projects"} */}
-          <Button variant="primary">Explore</Button>
+          <Link to="projects" smooth={true} offset={-70} duration={500}>
+            <Button variant="primary">Explore</Button>
+          </Link>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
@@ -85,4 +86,3 @@ const styles = {
     },
   },
 };
-
