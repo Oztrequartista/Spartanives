@@ -21,6 +21,7 @@ import shapePattern from "assets/shape-pattern1.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
+import Ssnit from "assets/snitt.png";
 
 const data = {
   subTitle: "Project Icarus",
@@ -74,8 +75,8 @@ Hotels"
       />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
-          <Button
+          <Image src={Ssnit} alt="thumbnail" />
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -83,7 +84,7 @@ Hotels"
             <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="shape" />
           </Box>
@@ -107,12 +108,12 @@ Hotels"
           </Grid>
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="ab_KhduEqho"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </section>
   );
 }

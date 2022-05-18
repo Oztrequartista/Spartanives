@@ -21,6 +21,7 @@ import shapePattern from "assets/shape-pattern1.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
+import HorseTrack from "assets/horse-track.png";
 
 const data = {
   subTitle: "Active Projects",
@@ -70,8 +71,8 @@ export default function AccraRaceCourse() {
     <section sx={{ variant: "section.services" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
-          <Button
+          <Image src={HorseTrack} alt="thumbnail" />
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -79,7 +80,7 @@ export default function AccraRaceCourse() {
             <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="shape" />
           </Box>

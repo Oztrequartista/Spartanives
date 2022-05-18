@@ -22,6 +22,8 @@ import shapePattern from "assets/shape-pattern1.png";
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 
+import PoloBeachClub from "assets/polo-beach-club.png";
+
 const data = {
   subTitle: "Active Projects",
   title: "Polo Beach Club",
@@ -71,7 +73,7 @@ export default function ServiceSection() {
       <SectionHeader slogan="Our Projects" title="Our Active Projects :" />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
+          <Image src={PoloBeachClub} alt="thumbnail" />
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -107,7 +109,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="ab_KhduEqho"
+        videoId="piPaOE1rim4"
         onClose={() => setVideoOpen(false)}
       />
     </section>
