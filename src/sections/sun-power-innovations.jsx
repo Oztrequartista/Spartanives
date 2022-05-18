@@ -23,6 +23,7 @@ import FeatureThumb from "assets/core-feature.png";
 import shapePattern from "assets/shape-pattern2.png";
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
+import Sunpower from "assets/sunpower.png";
 
 const data = {
   subTitle: "Active Projects",
@@ -105,7 +106,7 @@ export default function AltServiceSection() {
           </Box>
         </Box> */}
           <Box sx={styles.thumbnail}>
-          <Image src={FeatureThumb} alt="Thumbnail" />
+          <Image src={Sunpower} alt="Thumbnail" />
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
           </Box>
