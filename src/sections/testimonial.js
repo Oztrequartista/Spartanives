@@ -13,9 +13,11 @@ import Avatar4 from "assets/testimonial/avatar4.png";
 const data = [
   {
     id: 1,
-    title: "Modern look & trending design",
-    description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+    title: "Entertainment and Leisure",
+    description: `Ghanaian based private investment firm with a 
+      focus on entertainment, leisure, sustainable 
+      hospitality, real estate, renewable energy, trade 
+      and SMEs with strategic value`,
     avatar: Avatar1,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -23,9 +25,10 @@ const data = [
   },
   {
     id: 2,
-    title: "Design Quality & performance",
+    title: "Sub-Contractural Networks",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+    `In-house experience and sub-contractural 
+    networks to deliver on mandates across Ghana`,
     avatar: Avatar2,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -33,23 +36,16 @@ const data = [
   },
   {
     id: 3,
-    title: "Layout and organized layers",
+    title: "Relations with local communities",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+     `Local expertise combined with deep relations 
+     with local communities and Government of 
+     Ghana entities at local, regional and national 
+     levels`,
     avatar: Avatar3,
     name: "Denny Hilguston",
     designation: "@denny.hil",
     review: 5,
-  },
-  {
-    id: 4,
-    title: "Modern look & trending design",
-    description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar4,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
-    review: 4,
   },
 ];
 
@@ -83,7 +79,7 @@ const carouselParams = {
   centerMode: false,
   className: "",
   containerClass: "carousel-container",
-  customButtonGroup: <ButtonGroup />,
+  // customButtonGroup: <ButtonGroup />,
   dotListClass: "",
   draggable: true,
   focusOnSelect: false,
@@ -103,7 +99,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: "section.testimonial" }}>
       <Container css={{ textAlign: "center" }}>
-        <SectionHeader slogan="Testimonial" title="Client Views" />
+        <SectionHeader slogan="Overview" title="Company Overview" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel {...carouselParams}>
@@ -119,12 +115,12 @@ export default function TestimonialCard() {
             } = item;
             return (
               <Box key={id} sx={styles.reviewCard}>
-                <Rating rating={review} />
+                {/* <Rating rating={review} /> */}
                 <Heading as="h3" sx={styles.title}>
                   {title}
                 </Heading>
                 <Text sx={styles.description}>{description}</Text>
-                <div className="card-footer">
+                {/* <div className="card-footer">
                   <div className="image">
                     <Image src={avatar} alt="Client Image" />
                   </div>
@@ -134,7 +130,7 @@ export default function TestimonialCard() {
                     </Heading>
                     <Text sx={styles.designation}>{designation}</Text>
                   </div>
-                </div>
+                </div> */}
               </Box>
             );
           })}

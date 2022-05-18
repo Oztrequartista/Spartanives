@@ -102,8 +102,10 @@ export default {
       overflow: 'hidden',
     },
     testimonial: {
-      pt: [8, null, 8, '70px', null, 8, null, '145px'],
-      pb: ['90px', null, 9, null, null, 10, null, '190px'],
+      // pt: [8, null, 8, '70px', null, 8, null, '145px'],
+      // pb: ['90px', null, 9, null, null, 10, null, '190px'],
+      pt: [5, null, 6, '50px', null, 8, null, '40px'],
+      pb: ['30px', null, 6, null, null, 7, null, '30px'],
       overflow: 'hidden',
     },
     services: {

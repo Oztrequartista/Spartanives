@@ -179,7 +179,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section>
+    <section style={{paddingTop:"50px"}}>
       <Container>
         <SectionHeader
           slogan="our team"
