@@ -10,25 +10,25 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Hospitality Acquisition",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: `Expansion on Real Estate Portfolio`,
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
+    title: `Distribution and Logistics`,
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: `Public Facilities - Ghana Goes Solar`,
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="WHAT'S THE FUNCTION?"
-          title="See Our Products Section"
+          slogan="Target Projects 2011 to 2030"
+          title="Our Sectors of Interests :"
           isWhite={true}
         />
         <Grid sx={styles.grid}>
@@ -51,7 +51,7 @@ export default function WorkFlow() {
                 <Box sx={styles.iconBox}>{`0${id}`}</Box>
                 <Box sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{text}</Text>
+                  {/* <Text sx={styles.wrapper.subTitle}>{text}</Text> */}
                 </Box>
               </Box>
             );
@@ -115,11 +115,11 @@ const styles = {
       },
     },
     "&:nth-of-type(2n-1)::before": {
-      backgroundImage: `url(${ArrowOdd})`,
+      // backgroundImage: `url(${ArrowOdd})`,
     },
     "&:nth-of-type(2n)::before": {
-      backgroundImage: `url(${ArrowEven})`,
-      top: 17,
+      // backgroundImage: `url(${ArrowEven})`,
+      // top: 17,
     },
     "&:last-child::before": {
       display: "none",
@@ -147,7 +147,7 @@ const styles = {
     flexDirection: "column",
     mt: "-5px",
     title: {
-      fontSize: [3, null, 4, null, null, 5],
+      fontSize: [3, null, 4, null, null, 4],
       color: "white",
       lineHeight: [1.4, null, null, null, null, 1.55],
       pr: [0, null, null, null, null, 2],
