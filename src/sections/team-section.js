@@ -11,14 +11,15 @@ import Member3 from "assets/team/member-3.png";
 import Member4 from "assets/team/member-4.png";
 import Member5 from "assets/team/member-5.png";
 import Member6 from "assets/team/member-6.png";
+import Profile from "assets/team/profile-icon.png";
 
 const data = [
   {
     id: 1,
-    imgSrc: Member1,
+    imgSrc: Profile,
     altText: "Samuel Baddoo",
     title: "Samuel Baddoo",
-    designation: "CEO and Founder",
+    designation: "A Business Investment Executive with a keen focus on growth and acquisitions in small to medium companies in Sub-Saharan Africa (SSA). Sam holds an MBA from London School of Business and Finance, a degree in Commercial Law and is a certifified Commercial Negotiator. He has advised on a number of private equity deals on behalf of London based TLG Capital across SSA. He is currently the Managing Director of the Spartan Ives Group.",
     socialProfile: [
       {
         id: 1,
@@ -42,10 +43,10 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member2,
+    imgSrc: Profile,
     altText: "Kwasi A. Agbley",
     title: "Kwasi A. Agbley",
-    designation: "Founder",
+    designation: "A very experienced investment and tourism consultant. He has over forty years of progressive experience in destination planning and management, sustained by the creation of vibrant local economies based on travel and related industries. He has consulted for the JICA, Millenium Challenge, UNDP, USAID, and World Bank Group, among others. He initiated the Central Region Development Program, the creation of Ghana's Kakum National Park, restoration of World Heriatge sites in the Central Region, and establishment of US$ 2 million Endowment in support of these. He has advised on a number of hotel and resort projects on the African continent including the Airport Holiday Inn Accra and the Best Western Takoradi, in Ghana.",
     socialProfile: [
       {
         id: 1,
@@ -69,10 +70,10 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member3,
+    imgSrc: Profile,
     altText: "Yaw Amoateng Afriye",
     title: "Yaw Amoateng Afriye",
-    designation: "Web Designer",
+    designation: "Currently the DCEO of Ghana Investment Promotion Centre, he is an experienced risk professional with a diverse practical, strategy and consultancy focus on SSA. Yaw possesses a good understanding of tactical and strategic issues affecting business and investment in SSA. He maintains strong links with African business and political elites, and these relationships, combined with sound advice, has strengthened his value offering to clients' understanding of these markets. He has delivered for clients in oil and gas, power, FMCG, financial services and agribusiness sectors in SSA. He holds a master's degree in Political Conflict Resolution from King's College London and diploma in Global Business from the Universoty of Oxford, Said Business School.",
     socialProfile: [
       {
         id: 1,
@@ -96,10 +97,10 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Member4,
+    imgSrc: Profile,
     altText: "Emmanuel Taye",
     title: "Emmanuel Taye",
-    designation: "Web Developer",
+    designation: "A biodiversity and conservational science specialist with a focus on African Wetlands, Ghana's deltas, the human impact on Ghana's water resources and its effects on animals. Specific avian species with studies of waterbird populatioons along the coast of Ghana.",
     socialProfile: [
       {
         id: 1,
@@ -123,10 +124,10 @@ const data = [
   },
   {
     id: 5,
-    imgSrc: Member5,
+    imgSrc: Profile,
     altText: "Andromina Baffoe",
     title: "Andromina Baffoe",
-    designation: "CEO and Founder",
+    designation: "Ms. Baffoe has worked with the owners of Spartan since before its inception. She has proven a track record of delivery in a number projects predating Spartan in a number of sectors ranging from entertainment, hospitality, real estate acquisitions to land development and FMCG.",
     socialProfile: [
       {
         id: 1,
