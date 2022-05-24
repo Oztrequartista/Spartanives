@@ -26,11 +26,11 @@ export default function IndexPage() {
         <Banner />
         <Overview />
         <Strategy />
-        <PoloBeachClub />
-        {/* <Feature /> */}
         <SunpowerInnovations />
+        {/* <Feature /> */}
         {/* <CoreFeature /> */}
         <AccraRaceCourse />
+        <PoloBeachClub />
         <GhanaCommercialBank/>
         <SSNIT/>
         <WorkFlow />

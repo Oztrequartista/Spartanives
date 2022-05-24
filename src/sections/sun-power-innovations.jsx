@@ -70,7 +70,8 @@ export default function AltServiceSection() {
     setVideoOpen(true);
   };
   return (
-    <section sx={{ variant: "section.services" }}>
+    <section sx={{ variant: "section.services" }} id="projects">
+      <SectionHeader slogan="Our Projects" title="Our Active Projects :" />
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />
